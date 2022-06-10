@@ -1,0 +1,41 @@
+<form [formGroup]="loginForm" class="was-validated" class="login-body">
+    <div class="form 1">
+        <section>
+            <div class="container d-flex justify-content-center" style="width: 500px;">
+                <div class="loginForm no-gutters">
+                    <div class="col-lg-12">
+                        <h1 class="text-center py-2">Login</h1>
+                        <div class="row">
+
+                            <div class="col-lg-12 px-4">
+                                <label for="username">UserName </label>
+                            </div>
+                            <div class="col-lg-12 px-4">
+                                <input type="text" id="username" name="username" formControlName="username"
+                                    placeholder="Username" name="username" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+
+                            <div class="col-lg-12 px-4 pt-4">
+                                <label for="password">Password </label>
+                            </div>
+                            <div class="col-lg-12 px-4">
+                                <input class="form-field" type="password" id="password" name="password"
+                                    formControlName="password" placeholder="Password" name="password" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="col-lg-12 py-5 text-center">
+                                <button class="btn1" (click)="submit()">Login</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</form>

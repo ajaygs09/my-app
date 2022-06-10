@@ -1,0 +1,93 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  h{
+      align-items: center;
+  }
+  .setting-icon {
+    padding: 0,15px;
+  }
+  :host{
+  ::ng-deep .mat-drawer-backdrop.mat-drawer-shown {
+    background-color: rgba(11, 72, 134, 0.918);
+}
+  }
+  :host{
+  ::ng-deep .mat-drawer {
+    background-color:  rgba(11, 72, 134, 0.918);
+    color: rgba(238, 242, 244, 0.87); 
+}
+  }
+ 
+  .lo{
+    color: rgb(15, 154, 224);
+  }
+  .go{
+    color: rgb(5, 5, 5);
+  }
+  .nav{
+    background-color: rgb(255, 255, 255);
+  }
+  .dashboard{
+   position: relative;
+   
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: auto;
+   background-size: 100px 50px;
+   width: 50px;
+}
+.dashboard:hover {
+  color: white;
+  background-color: rgb(10, 162, 238);
+}
+  .home{
+    position: relative;
+   
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: auto;
+   background-size: 100px 50px;
+   width: 50px;
+  
+  }
+  .home:hover {
+    color: white;
+    background-color: rgb(10, 162, 238);
+  }
+  .about{
+    position: relative;
+
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: auto;
+   background-size: 100px 50px;
+   width: 50px;
+  
+  }
+  .about:hover {
+    color: white;
+    background-color: rgb(10, 162, 238);
+  }
+  .mail{
+    position: relative;
+   
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: auto;
+   background-size: 100px 50px;
+   width: 50px;
+  
+  }
+  .mail:hover {
+    color: white;
+    background-color: rgb(10, 162, 238);
+  }
+
+  .mat-sidenav-content{
+    height: 100vh;
+  }

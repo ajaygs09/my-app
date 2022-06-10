@@ -1,0 +1,50 @@
+th{
+    background-color: rgba(11, 72, 134, 0.918);
+    color: white;
+    // padding-left: 20px;
+}
+td{
+    // padding-left: 20px;
+}
+tr:hover{
+    color: white;
+    background-color: rgba(11, 72, 134, 0.918);
+    cursor: pointer;
+    scrollbar-highlight-color: rgb(6, 109, 173);
+}
+h1{
+    text-align: center;
+    height: 60px;
+    background-color: rgba(11, 72, 134, 0.918);
+    color: white;
+    
+}
+input{
+    // width: 30%;
+    // margin-top: 35px;
+    // margin-left: 10PX;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 2px;
+    // display: inline;
+ }
+label{
+    // margin-left: 35px;
+    // margin-top: 15px;
+    color: rgba(11, 72, 134, 0.918);
+    // width:70%;
+    // display: inline;
+}
+// .form-group{
+//     display: inline-block;
+// }
+
+// .f-conrol label{
+//     width: 50%;
+
+// }
+// .f-conrol input{width: 50%;}
+// .form-group1{
+// display: inline-block;
+// }
