@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { EmailComponent } from './email/email.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -28,8 +29,7 @@ import { EmailComponent } from './email/email.component';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
-    ReactiveFormsModule
-   
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
